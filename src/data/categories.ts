@@ -1,0 +1,68 @@
+import { Category } from '../types';
+
+export const CATEGORIES_DATA: Category[] = [
+  {
+    id: 'pizza',
+    name: 'Pizza',
+    count: '128 Restaurants',
+    icon: '🍕',
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-orange-50/80 dark:bg-orange-950/20',
+  },
+  {
+    id: 'burger',
+    name: 'Burger',
+    count: '96 Restaurants',
+    icon: '🍔',
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-amber-50/80 dark:bg-amber-950/20',
+  },
+  {
+    id: 'shawarma',
+    name: 'Shawarma',
+    count: '80 Restaurants',
+    icon: '🌯',
+    imageUrl: 'https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-emerald-50/80 dark:bg-emerald-950/20',
+  },
+  {
+    id: 'sushi',
+    name: 'Sushi',
+    count: '64 Restaurants',
+    icon: '🍣',
+    imageUrl: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-slate-50/80 dark:bg-slate-800/20',
+  },
+  {
+    id: 'healthy',
+    name: 'Healthy',
+    count: '72 Restaurants',
+    icon: '🥗',
+    imageUrl: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-green-50/80 dark:bg-green-950/20',
+  },
+  {
+    id: 'desserts',
+    name: 'Desserts',
+    count: '54 Restaurants',
+    icon: '🍰',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-pink-50/80 dark:bg-pink-950/20',
+  },
+  {
+    id: 'drinks',
+    name: 'Drinks',
+    count: '45 Restaurants',
+    icon: '🍹',
+    imageUrl: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-cyan-50/80 dark:bg-cyan-950/20',
+  },
+  {
+    id: 'breakfast',
+    name: 'Breakfast',
+    count: '38 Restaurants',
+    icon: '🥞',
+    imageUrl: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=400&q=80',
+    bgColor: 'bg-yellow-50/80 dark:bg-yellow-950/20',
+  },
+];
